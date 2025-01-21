@@ -340,12 +340,43 @@ body{
     padding-bottom: 10px;
 }
 
+/* Custom Scrollbar Styles */
 .car-saction::-webkit-scrollbar {
-    height: 0px; 
+    width: 5px;
+    height: 10px;
+}
+
+.car-saction::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.car-saction::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.car-saction::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .mobile-saction::-webkit-scrollbar {
-    height: 0px; 
+    width: 5px;
+    height: 10px;
+}
+
+.mobile-saction::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.mobile-saction::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.mobile-saction::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .brand-explore{
@@ -621,4 +652,8 @@ body {
 
 .media p{
     margin-left: 10px;
+}
+
+#my-popover{
+    color: #f1f1f1;
 }
